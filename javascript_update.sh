@@ -79,7 +79,8 @@ REPLACEMENTS=(
 		"s/language=[\\][\']javascript[A-Z1-9a-z\.]*[\\][\']/type=\\\\\'text\/javascript\\\\\'/gI" 
 		"s/language=[\\][\"]javascript[A-Z1-9a-z\.]*[\\][\"]/type=\\\\\"text\/javascript\\\\\"/gI" 
 		"s/language=[\']javascript[A-Z1-9a-z\.]*[\']/type=\'text\/javascript\'/gI" 
-		"s/language=[\"]javascript[A-Z1-9a-z\.]*[\"]/type=\"text\/javascript\"/gI" 
+		"s/language=[\"]javascript[A-Z1-9a-z\.]*[\"]/type=\"text\/javascript\"/gI"
+		"s/language=javascript/type=\"text\/javascript\"/gI" 
 		"s/<\/script>/<\/script>/gI" 
 		"s/<script /<script /gI"
 );
